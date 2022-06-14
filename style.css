@@ -1,85 +1,83 @@
+.attribution {
+  bottom:0;
+  position:absolute;
+  }
 body {
   background-color: hsl(216, 12%, 8%);
   color: hsl(217, 12%, 63%);
   font-family: "Overpass", sans-serif;
 }
-p {
-  font-size: 15px;
+.centered {
+  padding: 30px;
+  text-align: center;
 }
 h3 {
   color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
 }
 .rate-window {
   background-color: rgb(31, 38, 48);
-  margin: 300px auto;
-  margin-top: 30%;
-  width: 350px;
-  height: 350px;
   border-radius: 8%;
+  font-family: "Overpass", sans-serif;
+  height: 350px;
+  margin: auto;
+  margin-top: 30%;
   padding: 30px 30px 0 30px;
-  font-family: "Overpass", sans-serif;
-}
+  width: 350px;
+  }
 .btn {
-  display: flex;
-  justify-content: center;
-  margin: 1rem auto;
   background-color: hsl(25, 97%, 53%);
-  color: white;
   border: none;
-  padding: 0.7rem 8.5rem;
   border-radius: 1.5rem;
+  color: white;
+  display: flex;
   font-family: "Overpass", sans-serif;
+  justify-content: center;
   letter-spacing: 2px;
+  margin: 1rem auto;
+  padding: 0.7rem 8.5rem;
 }
 .btn:hover {
   background-color: hsl(25, 72%, 73%);
+}
+.number {
+  border-radius: 100%;
+  background-color: rgb(39, 48, 57);
+  display: inline-block;
+  line-height: 1.1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 1.1rem;
 }
 .numbers {
   padding: 0;
   text-align: center;
 }
-ul {
-  list-style: none;
-}
-.number {
-  width: 1.1rem;
-  line-height: 1.1rem;
-  display: inline-block;
-  margin: 0.5rem;
-  padding: 1rem;
-  border-radius: 100%;
-  background-color: rgb(39, 48, 57);
-}
 .number:hover {
   background-color: rgb(65, 79, 94);
 }
+p {
+  font-size: 15px;
+}
+.result {
+  border-radius: 5rem;
+  background-color: rgb(65, 79, 94);
+  color: hsl(25, 97%, 53%);
+  margin: 2rem auto;
+  padding: 10px; 
+  width: 50%;
+}
 .star {
   background-color: rgb(39, 48, 57);
-  padding: 10px;
   border-radius: 100%;
+  padding: 10px;
 }
-h3 {
-  font-size: 1.5rem;
-}
+
 .selected {
   background-color: rgb(65, 79, 94);
 }
-
-.centered {
-  text-align: center;
-
-  padding: 30px;
+ul {
+  list-style: none;
 }
 
-.result {
-  color: hsl(25, 97%, 53%);
-  background-color: rgb(65, 79, 94);
-  width: 50%;
-  padding: 10px;
-  margin: 2rem auto;
-  border-radius: 5rem;
-}
-.attribution {
-  position:absolute;
-  bottom:0;
-}
+
