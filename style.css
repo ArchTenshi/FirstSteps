@@ -81,3 +81,92 @@ p {
 ul {
   list-style: none;
 }
+
+/* For mobiles */
+
+@media all and (max-width: 375px) {
+  .attribution {
+    bottom: 0;
+    position: absolute;
+  }
+  body {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass", sans-serif;
+    padding-top: 50%;
+  }
+  .centered {
+    padding: 30px;
+    text-align: center;
+  }
+  h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+  }
+  .rate-window {
+    background-color: rgb(31, 38, 48);
+    border-radius: 8%;
+    font-family: "Overpass", sans-serif;
+    height: 270px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 25px 25px 25px 25px;
+    width: 270px;
+  }
+  .btn {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    display: flex;
+    font-family: "Overpass", sans-serif;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin: 0.5rem auto;
+    padding: 0.5rem 6.5rem;
+  }
+  .btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
+  .number {
+    border-radius: 100%;
+    background-color: rgb(39, 48, 57);
+    display: inline-block;
+    line-height: 0.55rem;
+    margin: 0.5rem;
+    padding: 0.8rem;
+    width: 0.55rem;
+  }
+  .numbers {
+    padding: 0;
+    text-align: center;
+  }
+  .number:hover {
+    background-color: rgb(65, 79, 94);
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .result {
+    border-radius: 5rem;
+    background-color: rgb(65, 79, 94);
+    color: hsl(25, 97%, 53%);
+    margin: 1rem auto;
+    padding: 10px;
+    width: 50%;
+  }
+  .star {
+    background-color: rgb(39, 48, 57);
+    border-radius: 100%;
+    padding: 10px;
+  }
+
+  .selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+}
